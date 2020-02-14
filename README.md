@@ -1,4 +1,4 @@
-# Anglemania!
+# Musicmania!
 Fun music game. Based off of "Anglemania!"
 
 ## Dependencies
@@ -10,4 +10,4 @@ Fun music game. Based off of "Anglemania!"
 [![creator: thetechrobo](https://img.shields.io/badge/developer-TheTechRobo-red?style=plastic)
 
 
-###### NOTICE: I am working on a Python 3.x version, use it unless you must use Python 2.x
+###### For Python 2.x compatibility (less updated) visit [this repo](https://github.com/TheTechRobo/musicmania)
