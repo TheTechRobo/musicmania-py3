@@ -1,12 +1,9 @@
-import Tkinter
-import tkMessageBox
-t = Tkinter
-tkMB = tkMessageBox
-from Tkinter import *
+from tkinter import *
+from tkinter import messagebox as tkMB
 import os
 
 
-top = Tkinter.Tk()
+top = Tk()
 intro = top
 top.title('Anglemania:Start')
 
@@ -67,11 +64,11 @@ def exitCallback():
 	print("Okay, bye :(")
 	exit()
 
-BWhatIs = t.Button(top, text ="What is Anglemania!", command = helloCallback)
-BAbt = t.Button(top, text ="About...", command=aboutCallback).pack()
-BSt = t.Button(top, text ="START!", command= badaCallback)
-BMenu = t.Button(top, text="Show menubar", command=menuCB).pack()
-BExit = t.Button(top, text="Exit :(", command=exitCallback)
+BWhatIs = Button(top, text ="What is Anglemania!", command = helloCallback)
+BAbt = Button(top, text ="About...", command=aboutCallback).pack()
+BSt = Button(top, text ="START!", command= badaCallback)
+BMenu = Button(top, text="Show menubar", command=menuCB).pack()
+BExit = Button(top, text="Exit :(", command=exitCallback)
 
 txt2 = Label(top, text="Welcome to Anglemania!")
 
